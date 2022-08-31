@@ -1,0 +1,45 @@
+.headerItem{
+    display: flex;
+    align-items: baseline;
+    
+    .icon{
+        width: 1rem;
+        height: 1rem;
+
+        img{
+            width: 70%;
+        }
+    }
+
+    .title{
+        margin: 0px 2px 0px 8px;
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-size: 0.875rem;
+        line-height: 1.5;
+        opacity: 1;
+        text-transform: capitalize;
+        text-decoration: none;
+        color: rgb(52, 71, 103);
+        letter-spacing: -0.125px;
+        font-weight: 400;
+    }
+    .arrowDown{
+        width: 10px;
+        height: 10px;
+        background-color: black;
+    }
+    .titleName{
+        text-decoration: none;
+        margin: 0px 2px 0px 8px;
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-size: 0.875rem;
+        line-height: 1.5;
+        opacity: 1;
+        text-transform: capitalize;
+        vertical-align: unset;
+        text-decoration: none;
+        color: rgb(52, 71, 103);
+        letter-spacing: -0.125px;
+        font-weight: 400;
+    }
+}
