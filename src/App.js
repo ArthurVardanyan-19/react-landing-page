@@ -12,6 +12,7 @@ function App() {
       <Route path="/Pages" element={<Pages />} />
       <Route path="/Sections" element={<Sections />} />
       <Route path="/Docs" element={<Docs />} />
+      
     </Routes>
   );
 }

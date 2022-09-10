@@ -1,6 +1,10 @@
 .headerItem{
     display: flex;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 8px;
     align-items: baseline;
+
     
     .icon{
         width: 1rem;
@@ -12,10 +16,9 @@
     }
 
     .title{
-        margin: 0px 2px 0px 8px;
+        margin: 0px 0px 0px 8px;
         font-family: Roboto, Helvetica, Arial, sans-serif;
         font-size: 0.875rem;
-        line-height: 1.5;
         opacity: 1;
         text-transform: capitalize;
         text-decoration: none;
@@ -24,8 +27,8 @@
         font-weight: 400;
     }
     .arrowDown{
-        width: 10px;
-        height: 10px;
+        width: 1rem;
+        height: 1rem;
         background-color: black;
     }
     .titleName{
@@ -41,5 +44,11 @@
         color: rgb(52, 71, 103);
         letter-spacing: -0.125px;
         font-weight: 400;
+    }
+
+    img {
+        padding-left: 5px;
+        width: 0.6rem;
+        height: 0.6rem;
     }
 }

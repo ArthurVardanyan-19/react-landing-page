@@ -1,4 +1,7 @@
 import dashboard from "../assets/icons/dashboard.svg";
+import sections from "../assets/icons/sections.svg";
+import documents from "../assets/icons/documents.svg";
+import github from "../assets/icons/github.svg";
 
 export const headerInfo = [
      {
@@ -11,7 +14,7 @@ export const headerInfo = [
      },
      {
         icon: {
-            src: dashboard,
+            src: sections,
             alt: "Sections"
         },
         title: "Sections",
@@ -20,7 +23,7 @@ export const headerInfo = [
      },
      {
         icon:{
-            src: dashboard,
+            src: documents,
             alt: "Docs"
         },
         title: "Docs",
@@ -28,7 +31,7 @@ export const headerInfo = [
      },
      {
         icon:{
-            src: dashboard,
+            src: github,
             alt: "Github"
         },
         title: "Github",

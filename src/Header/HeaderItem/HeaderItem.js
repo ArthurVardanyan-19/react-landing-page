@@ -2,6 +2,7 @@ import s from "./HeaderItem.module.scss";
 import { Link } from "react-router-dom";
 import arrowdown from "../../assets/icons/arrowdown.svg"
 
+
 function HeaderItem ({title, icon, multi}) {
     return (
         <div className={s.headerItem}>
@@ -10,7 +11,7 @@ function HeaderItem ({title, icon, multi}) {
             </div>
             {/* <a href={`/${title}`} className={s.title}>{title}</a> */}
             <Link className={s.titleName} to={`/${title}`}>{title}</ Link>
-            {multi && <div>{arrowdown}</div>}
+            {multi && <img  src={arrowdown} alt={'arrowdown'} />}
         </div>
     ) 
 }
